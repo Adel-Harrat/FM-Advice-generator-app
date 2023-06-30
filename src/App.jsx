@@ -34,10 +34,17 @@ export default function App() {
           <FaQuoteRight className="inline h-2 mb-4 -ml-2" />
         </h1>
 
-        {/* Divider */}
+        {/* Mobile Divider */}
         <img
           src="./images/pattern-divider-mobile.svg"
-          className="block mx-auto mt-6"
+          className="block mx-auto mt-6 md:hidden"
+          alt="divider"
+        />
+
+        {/* Desktop Divider */}
+        <img
+          src="./images/pattern-divider-desktop.svg"
+          className="mx-auto mt-6 hidden md:block px-5"
           alt="divider"
         />
 
