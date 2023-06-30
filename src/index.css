@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-shadow:hover {
+  box-shadow: 0px 0px 15px 10px theme(colors.custom-Neon-Green / 50%);
+  -webkit-box-shadow: 0px 0px 15px 10px theme(colors.custom-Neon-Green / 50%);
+  -moz-box-shadow: 0px 0px 15px 10px theme(colors.custom-Neon-Green / 50%);
+}
+
+.my-transition {
+  @apply transition-all ease-in-out duration-200;
+}
